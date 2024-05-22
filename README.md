@@ -1,4 +1,6 @@
-# MRVA-example
+# Vulnerable function
+
+This repo is intended to be used for a demonstration at the 2024 Microsoft Build conference. There is [intentionally vulnerable code](https://github.com/taladrane/MRVA-example/blob/main/services/sql-get-user-data.js#L3) in here!
 
 From https://docs.github.com/en/code-security/codeql-for-vs-code/getting-started-with-codeql-for-vs-code/running-codeql-queries-at-scale-with-multi-repository-variant-analysis#running-a-query-at-scale-using-mrva :
 > With multi-repository variant analysis (MRVA), you can run CodeQL queries on a list of up to 1,000 repositories on GitHub.com from Visual Studio Code. When you run MRVA against a list of repositories, your query is run against each repository that has a CodeQL database available to analyze. GitHub creates and stores the latest CodeQL database for the default branch of thousands of public repositories, including every repository that runs code scanning using CodeQL.
